@@ -111,10 +111,10 @@ def looper(defName):
 				if defName == currName:
 					dispName = defName
 				else:
-					dispName = defName + u" ({0})".format(currName)
+					dispName = defName + u"{0}".format(currName)
 			ts3UpdateNick(dispName)
 		time.sleep(10)
 
 if __name__ == "__main__":
-	looper(u"Wrinn Ped")
+	looper(u"")
 
